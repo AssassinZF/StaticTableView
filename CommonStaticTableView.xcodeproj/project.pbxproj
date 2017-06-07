@@ -15,6 +15,12 @@
 		549CE2371EE7E97200EA3C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549CE2351EE7E97200EA3C76 /* LaunchScreen.storyboard */; };
 		549CE2421EE7E97200EA3C76 /* CommonStaticTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE2411EE7E97200EA3C76 /* CommonStaticTableViewTests.m */; };
 		549CE24D1EE7E97200EA3C76 /* CommonStaticTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE24C1EE7E97200EA3C76 /* CommonStaticTableViewUITests.m */; };
+		549CE25D1EE7F3F800EA3C76 /* ZFStaticTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE25C1EE7F3F800EA3C76 /* ZFStaticTableView.m */; };
+		549CE2601EE7F6FA00EA3C76 /* ZFStaticTableViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE25F1EE7F6FA00EA3C76 /* ZFStaticTableViewCellViewModel.m */; };
+		549CE2631EE7F71900EA3C76 /* ZFStaticTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE2621EE7F71900EA3C76 /* ZFStaticTableViewCell.m */; };
+		549CE2661EE7F74800EA3C76 /* ZFStaticTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE2651EE7F74800EA3C76 /* ZFStaticTableViewDataSource.m */; };
+		549CE2691EE7F77300EA3C76 /* ZFStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE2681EE7F77300EA3C76 /* ZFStaticTableViewController.m */; };
+		549CE26E1EE7FDDD00EA3C76 /* ZFStaticTableViewSectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE26D1EE7FDDD00EA3C76 /* ZFStaticTableViewSectionViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,20 @@
 		549CE2481EE7E97200EA3C76 /* CommonStaticTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonStaticTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		549CE24C1EE7E97200EA3C76 /* CommonStaticTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonStaticTableViewUITests.m; sourceTree = "<group>"; };
 		549CE24E1EE7E97200EA3C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549CE25B1EE7F3F800EA3C76 /* ZFStaticTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStaticTableView.h; sourceTree = "<group>"; };
+		549CE25C1EE7F3F800EA3C76 /* ZFStaticTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFStaticTableView.m; sourceTree = "<group>"; };
+		549CE25E1EE7F6FA00EA3C76 /* ZFStaticTableViewCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStaticTableViewCellViewModel.h; sourceTree = "<group>"; };
+		549CE25F1EE7F6FA00EA3C76 /* ZFStaticTableViewCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFStaticTableViewCellViewModel.m; sourceTree = "<group>"; };
+		549CE2611EE7F71900EA3C76 /* ZFStaticTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStaticTableViewCell.h; sourceTree = "<group>"; };
+		549CE2621EE7F71900EA3C76 /* ZFStaticTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFStaticTableViewCell.m; sourceTree = "<group>"; };
+		549CE2641EE7F74800EA3C76 /* ZFStaticTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStaticTableViewDataSource.h; sourceTree = "<group>"; };
+		549CE2651EE7F74800EA3C76 /* ZFStaticTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFStaticTableViewDataSource.m; sourceTree = "<group>"; };
+		549CE2671EE7F77300EA3C76 /* ZFStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStaticTableViewController.h; sourceTree = "<group>"; };
+		549CE2681EE7F77300EA3C76 /* ZFStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFStaticTableViewController.m; sourceTree = "<group>"; };
+		549CE26A1EE7F79F00EA3C76 /* ZFStaticTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStaticTableViewHeader.h; sourceTree = "<group>"; };
+		549CE26B1EE7F7E300EA3C76 /* ConfigureConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigureConst.h; sourceTree = "<group>"; };
+		549CE26C1EE7FDDD00EA3C76 /* ZFStaticTableViewSectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStaticTableViewSectionViewModel.h; sourceTree = "<group>"; };
+		549CE26D1EE7FDDD00EA3C76 /* ZFStaticTableViewSectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFStaticTableViewSectionViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +121,7 @@
 		549CE2261EE7E97100EA3C76 /* CommonStaticTableView */ = {
 			isa = PBXGroup;
 			children = (
+				549CE25A1EE7E99C00EA3C76 /* CommonStaticTableViewClass */,
 				549CE22A1EE7E97100EA3C76 /* AppDelegate.h */,
 				549CE22B1EE7E97100EA3C76 /* AppDelegate.m */,
 				549CE22D1EE7E97100EA3C76 /* ViewController.h */,
@@ -138,6 +159,27 @@
 				549CE24E1EE7E97200EA3C76 /* Info.plist */,
 			);
 			path = CommonStaticTableViewUITests;
+			sourceTree = "<group>";
+		};
+		549CE25A1EE7E99C00EA3C76 /* CommonStaticTableViewClass */ = {
+			isa = PBXGroup;
+			children = (
+				549CE25B1EE7F3F800EA3C76 /* ZFStaticTableView.h */,
+				549CE25C1EE7F3F800EA3C76 /* ZFStaticTableView.m */,
+				549CE25E1EE7F6FA00EA3C76 /* ZFStaticTableViewCellViewModel.h */,
+				549CE25F1EE7F6FA00EA3C76 /* ZFStaticTableViewCellViewModel.m */,
+				549CE26C1EE7FDDD00EA3C76 /* ZFStaticTableViewSectionViewModel.h */,
+				549CE26D1EE7FDDD00EA3C76 /* ZFStaticTableViewSectionViewModel.m */,
+				549CE2611EE7F71900EA3C76 /* ZFStaticTableViewCell.h */,
+				549CE2621EE7F71900EA3C76 /* ZFStaticTableViewCell.m */,
+				549CE2641EE7F74800EA3C76 /* ZFStaticTableViewDataSource.h */,
+				549CE2651EE7F74800EA3C76 /* ZFStaticTableViewDataSource.m */,
+				549CE2671EE7F77300EA3C76 /* ZFStaticTableViewController.h */,
+				549CE2681EE7F77300EA3C76 /* ZFStaticTableViewController.m */,
+				549CE26A1EE7F79F00EA3C76 /* ZFStaticTableViewHeader.h */,
+				549CE26B1EE7F7E300EA3C76 /* ConfigureConst.h */,
+			);
+			path = CommonStaticTableViewClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +315,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				549CE2661EE7F74800EA3C76 /* ZFStaticTableViewDataSource.m in Sources */,
 				549CE22F1EE7E97100EA3C76 /* ViewController.m in Sources */,
+				549CE2631EE7F71900EA3C76 /* ZFStaticTableViewCell.m in Sources */,
+				549CE25D1EE7F3F800EA3C76 /* ZFStaticTableView.m in Sources */,
+				549CE2601EE7F6FA00EA3C76 /* ZFStaticTableViewCellViewModel.m in Sources */,
+				549CE26E1EE7FDDD00EA3C76 /* ZFStaticTableViewSectionViewModel.m in Sources */,
 				549CE22C1EE7E97100EA3C76 /* AppDelegate.m in Sources */,
 				549CE2291EE7E97100EA3C76 /* main.m in Sources */,
+				549CE2691EE7F77300EA3C76 /* ZFStaticTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +557,7 @@
 				549CE2531EE7E97200EA3C76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		549CE2541EE7E97200EA3C76 /* Build configuration list for PBXNativeTarget "CommonStaticTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +566,7 @@
 				549CE2561EE7E97200EA3C76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		549CE2571EE7E97200EA3C76 /* Build configuration list for PBXNativeTarget "CommonStaticTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +575,7 @@
 				549CE2591EE7E97200EA3C76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
