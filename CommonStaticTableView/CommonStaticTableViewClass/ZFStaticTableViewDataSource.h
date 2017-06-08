@@ -9,13 +9,23 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@class ZFStaticTableViewCellViewModel,ZFStaticTableViewCell;
+@class ZFStaticTableViewCellViewModel,ZFStaticTableViewCell,ZFStaticTableViewSectionViewModel;
 
 typedef void(^ZFStaticCellConfigureBlock)(ZFStaticTableViewCell *cell, ZFStaticTableViewCellViewModel * viewModel);
 
-@interface ZFStaticTableViewDataSource : NSObject<UITableViewDataSource>
+@protocol ZFStaticTableViewDataSource <UITableViewDataSource>
 
-@property (nonatomic, strong) NSArray *viewModelsArray;
+@optional
+
+- (ZFStaticTableViewSectionViewModel *)tableView:(UITableView *)tableView sectionViewModelInSection:(NSInteger )section;
+- (ZFStaticTableViewCellViewModel *)tableView:(UITableView *)tableview cellViewModelAtIndexPath:(NSIndexPath *)indexPath;
+
+@end
+
+
+@interface ZFStaticTableViewDataSource : NSObject<ZFStaticTableViewDataSource>
+
+@property (nonatomic, strong) NSArray *viewModelsArray;//所有的数据源
 
 - (instancetype)initWithViewModelsArray:(NSArray *)viewModelsArray configureBlock:(ZFStaticCellConfigureBlock)block;
 

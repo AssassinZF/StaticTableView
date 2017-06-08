@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZFStaticTableViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : ZFStaticTableViewController
 
 
 @end

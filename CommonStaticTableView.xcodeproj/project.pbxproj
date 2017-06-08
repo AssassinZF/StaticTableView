@@ -21,6 +21,22 @@
 		549CE2661EE7F74800EA3C76 /* ZFStaticTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE2651EE7F74800EA3C76 /* ZFStaticTableViewDataSource.m */; };
 		549CE2691EE7F77300EA3C76 /* ZFStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE2681EE7F77300EA3C76 /* ZFStaticTableViewController.m */; };
 		549CE26E1EE7FDDD00EA3C76 /* ZFStaticTableViewSectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE26D1EE7FDDD00EA3C76 /* ZFStaticTableViewSectionViewModel.m */; };
+		549CE2771EE92D8100EA3C76 /* Discover.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549CE2731EE92D8100EA3C76 /* Discover.xcassets */; };
+		549CE2781EE92D8100EA3C76 /* Emoji.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549CE2741EE92D8100EA3C76 /* Emoji.xcassets */; };
+		549CE2791EE92D8100EA3C76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549CE2751EE92D8100EA3C76 /* Images.xcassets */; };
+		549CE27A1EE92D8100EA3C76 /* Me.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549CE2761EE92D8100EA3C76 /* Me.xcassets */; };
+		549CE27D1EE9300100EA3C76 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE27C1EE9300100EA3C76 /* Factory.m */; };
+		549CE2811EE9317A00EA3C76 /* ZFStaticTableViewCell+AccessoryIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE2801EE9317A00EA3C76 /* ZFStaticTableViewCell+AccessoryIndicator.m */; };
+		549CE2841EE9323E00EA3C76 /* ZFStaticTableViewCell+LogoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE2831EE9323E00EA3C76 /* ZFStaticTableViewCell+LogoutCell.m */; };
+		549CE2871EE9328800EA3C76 /* ZFStaticTableViewCell+AccessoryNone.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE2861EE9328800EA3C76 /* ZFStaticTableViewCell+AccessoryNone.m */; };
+		549CE28A1EE932B300EA3C76 /* ZFStaticTableViewCell+AccessorySwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE2891EE932B300EA3C76 /* ZFStaticTableViewCell+AccessorySwitch.m */; };
+		549CE28D1EE9330400EA3C76 /* ZFStaticTableViewCell+MeAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE28C1EE9330400EA3C76 /* ZFStaticTableViewCell+MeAvatar.m */; };
+		549CE2941EE946F500EA3C76 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE2931EE946F500EA3C76 /* MeViewController.m */; };
+		549CE29F1EE94B2200EA3C76 /* SJCustomCellsOneSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE2961EE94B2200EA3C76 /* SJCustomCellsOneSectionViewController.m */; };
+		549CE2A01EE94B2200EA3C76 /* SJCustomCellsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE2981EE94B2200EA3C76 /* SJCustomCellsViewController.m */; };
+		549CE2A11EE94B2200EA3C76 /* SJEmoticonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE29A1EE94B2200EA3C76 /* SJEmoticonViewController.m */; };
+		549CE2A21EE94B2200EA3C76 /* SJInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE29C1EE94B2200EA3C76 /* SJInfoViewController.m */; };
+		549CE2A31EE94B2200EA3C76 /* SJSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549CE29E1EE94B2200EA3C76 /* SJSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,10 +83,38 @@
 		549CE2651EE7F74800EA3C76 /* ZFStaticTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFStaticTableViewDataSource.m; sourceTree = "<group>"; };
 		549CE2671EE7F77300EA3C76 /* ZFStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStaticTableViewController.h; sourceTree = "<group>"; };
 		549CE2681EE7F77300EA3C76 /* ZFStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFStaticTableViewController.m; sourceTree = "<group>"; };
-		549CE26A1EE7F79F00EA3C76 /* ZFStaticTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStaticTableViewHeader.h; sourceTree = "<group>"; };
 		549CE26B1EE7F7E300EA3C76 /* ConfigureConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigureConst.h; sourceTree = "<group>"; };
 		549CE26C1EE7FDDD00EA3C76 /* ZFStaticTableViewSectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStaticTableViewSectionViewModel.h; sourceTree = "<group>"; };
 		549CE26D1EE7FDDD00EA3C76 /* ZFStaticTableViewSectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFStaticTableViewSectionViewModel.m; sourceTree = "<group>"; };
+		549CE2721EE9248E00EA3C76 /* ZFStaticTableviewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStaticTableviewHeader.h; sourceTree = "<group>"; };
+		549CE2731EE92D8100EA3C76 /* Discover.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Discover.xcassets; sourceTree = "<group>"; };
+		549CE2741EE92D8100EA3C76 /* Emoji.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Emoji.xcassets; sourceTree = "<group>"; };
+		549CE2751EE92D8100EA3C76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		549CE2761EE92D8100EA3C76 /* Me.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Me.xcassets; sourceTree = "<group>"; };
+		549CE27B1EE9300100EA3C76 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		549CE27C1EE9300100EA3C76 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		549CE27F1EE9317A00EA3C76 /* ZFStaticTableViewCell+AccessoryIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZFStaticTableViewCell+AccessoryIndicator.h"; sourceTree = "<group>"; };
+		549CE2801EE9317A00EA3C76 /* ZFStaticTableViewCell+AccessoryIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZFStaticTableViewCell+AccessoryIndicator.m"; sourceTree = "<group>"; };
+		549CE2821EE9323E00EA3C76 /* ZFStaticTableViewCell+LogoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZFStaticTableViewCell+LogoutCell.h"; sourceTree = "<group>"; };
+		549CE2831EE9323E00EA3C76 /* ZFStaticTableViewCell+LogoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZFStaticTableViewCell+LogoutCell.m"; sourceTree = "<group>"; };
+		549CE2851EE9328800EA3C76 /* ZFStaticTableViewCell+AccessoryNone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZFStaticTableViewCell+AccessoryNone.h"; sourceTree = "<group>"; };
+		549CE2861EE9328800EA3C76 /* ZFStaticTableViewCell+AccessoryNone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZFStaticTableViewCell+AccessoryNone.m"; sourceTree = "<group>"; };
+		549CE2881EE932B300EA3C76 /* ZFStaticTableViewCell+AccessorySwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZFStaticTableViewCell+AccessorySwitch.h"; sourceTree = "<group>"; };
+		549CE2891EE932B300EA3C76 /* ZFStaticTableViewCell+AccessorySwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZFStaticTableViewCell+AccessorySwitch.m"; sourceTree = "<group>"; };
+		549CE28B1EE9330400EA3C76 /* ZFStaticTableViewCell+MeAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZFStaticTableViewCell+MeAvatar.h"; sourceTree = "<group>"; };
+		549CE28C1EE9330400EA3C76 /* ZFStaticTableViewCell+MeAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZFStaticTableViewCell+MeAvatar.m"; sourceTree = "<group>"; };
+		549CE2921EE946F500EA3C76 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		549CE2931EE946F500EA3C76 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		549CE2951EE94B2200EA3C76 /* SJCustomCellsOneSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCustomCellsOneSectionViewController.h; sourceTree = "<group>"; };
+		549CE2961EE94B2200EA3C76 /* SJCustomCellsOneSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCustomCellsOneSectionViewController.m; sourceTree = "<group>"; };
+		549CE2971EE94B2200EA3C76 /* SJCustomCellsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCustomCellsViewController.h; sourceTree = "<group>"; };
+		549CE2981EE94B2200EA3C76 /* SJCustomCellsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCustomCellsViewController.m; sourceTree = "<group>"; };
+		549CE2991EE94B2200EA3C76 /* SJEmoticonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJEmoticonViewController.h; sourceTree = "<group>"; };
+		549CE29A1EE94B2200EA3C76 /* SJEmoticonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJEmoticonViewController.m; sourceTree = "<group>"; };
+		549CE29B1EE94B2200EA3C76 /* SJInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJInfoViewController.h; sourceTree = "<group>"; };
+		549CE29C1EE94B2200EA3C76 /* SJInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJInfoViewController.m; sourceTree = "<group>"; };
+		549CE29D1EE94B2200EA3C76 /* SJSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSettingViewController.h; sourceTree = "<group>"; };
+		549CE29E1EE94B2200EA3C76 /* SJSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,11 +165,29 @@
 		549CE2261EE7E97100EA3C76 /* CommonStaticTableView */ = {
 			isa = PBXGroup;
 			children = (
+				549CE2731EE92D8100EA3C76 /* Discover.xcassets */,
+				549CE2741EE92D8100EA3C76 /* Emoji.xcassets */,
+				549CE2751EE92D8100EA3C76 /* Images.xcassets */,
+				549CE2761EE92D8100EA3C76 /* Me.xcassets */,
 				549CE25A1EE7E99C00EA3C76 /* CommonStaticTableViewClass */,
 				549CE22A1EE7E97100EA3C76 /* AppDelegate.h */,
 				549CE22B1EE7E97100EA3C76 /* AppDelegate.m */,
 				549CE22D1EE7E97100EA3C76 /* ViewController.h */,
 				549CE22E1EE7E97100EA3C76 /* ViewController.m */,
+				549CE2921EE946F500EA3C76 /* MeViewController.h */,
+				549CE2931EE946F500EA3C76 /* MeViewController.m */,
+				549CE2951EE94B2200EA3C76 /* SJCustomCellsOneSectionViewController.h */,
+				549CE2961EE94B2200EA3C76 /* SJCustomCellsOneSectionViewController.m */,
+				549CE2971EE94B2200EA3C76 /* SJCustomCellsViewController.h */,
+				549CE2981EE94B2200EA3C76 /* SJCustomCellsViewController.m */,
+				549CE2991EE94B2200EA3C76 /* SJEmoticonViewController.h */,
+				549CE29A1EE94B2200EA3C76 /* SJEmoticonViewController.m */,
+				549CE29B1EE94B2200EA3C76 /* SJInfoViewController.h */,
+				549CE29C1EE94B2200EA3C76 /* SJInfoViewController.m */,
+				549CE29D1EE94B2200EA3C76 /* SJSettingViewController.h */,
+				549CE29E1EE94B2200EA3C76 /* SJSettingViewController.m */,
+				549CE27B1EE9300100EA3C76 /* Factory.h */,
+				549CE27C1EE9300100EA3C76 /* Factory.m */,
 				549CE2301EE7E97100EA3C76 /* Main.storyboard */,
 				549CE2331EE7E97200EA3C76 /* Assets.xcassets */,
 				549CE2351EE7E97200EA3C76 /* LaunchScreen.storyboard */,
@@ -164,6 +226,7 @@
 		549CE25A1EE7E99C00EA3C76 /* CommonStaticTableViewClass */ = {
 			isa = PBXGroup;
 			children = (
+				549CE27E1EE930DC00EA3C76 /* CustomCellStyle */,
 				549CE25B1EE7F3F800EA3C76 /* ZFStaticTableView.h */,
 				549CE25C1EE7F3F800EA3C76 /* ZFStaticTableView.m */,
 				549CE25E1EE7F6FA00EA3C76 /* ZFStaticTableViewCellViewModel.h */,
@@ -176,10 +239,27 @@
 				549CE2651EE7F74800EA3C76 /* ZFStaticTableViewDataSource.m */,
 				549CE2671EE7F77300EA3C76 /* ZFStaticTableViewController.h */,
 				549CE2681EE7F77300EA3C76 /* ZFStaticTableViewController.m */,
-				549CE26A1EE7F79F00EA3C76 /* ZFStaticTableViewHeader.h */,
 				549CE26B1EE7F7E300EA3C76 /* ConfigureConst.h */,
+				549CE2721EE9248E00EA3C76 /* ZFStaticTableviewHeader.h */,
 			);
 			path = CommonStaticTableViewClass;
+			sourceTree = "<group>";
+		};
+		549CE27E1EE930DC00EA3C76 /* CustomCellStyle */ = {
+			isa = PBXGroup;
+			children = (
+				549CE27F1EE9317A00EA3C76 /* ZFStaticTableViewCell+AccessoryIndicator.h */,
+				549CE2801EE9317A00EA3C76 /* ZFStaticTableViewCell+AccessoryIndicator.m */,
+				549CE2821EE9323E00EA3C76 /* ZFStaticTableViewCell+LogoutCell.h */,
+				549CE2831EE9323E00EA3C76 /* ZFStaticTableViewCell+LogoutCell.m */,
+				549CE2851EE9328800EA3C76 /* ZFStaticTableViewCell+AccessoryNone.h */,
+				549CE2861EE9328800EA3C76 /* ZFStaticTableViewCell+AccessoryNone.m */,
+				549CE2881EE932B300EA3C76 /* ZFStaticTableViewCell+AccessorySwitch.h */,
+				549CE2891EE932B300EA3C76 /* ZFStaticTableViewCell+AccessorySwitch.m */,
+				549CE28B1EE9330400EA3C76 /* ZFStaticTableViewCell+MeAvatar.h */,
+				549CE28C1EE9330400EA3C76 /* ZFStaticTableViewCell+MeAvatar.m */,
+			);
+			path = CustomCellStyle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +368,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				549CE2781EE92D8100EA3C76 /* Emoji.xcassets in Resources */,
+				549CE2771EE92D8100EA3C76 /* Discover.xcassets in Resources */,
 				549CE2371EE7E97200EA3C76 /* LaunchScreen.storyboard in Resources */,
+				549CE27A1EE92D8100EA3C76 /* Me.xcassets in Resources */,
+				549CE2791EE92D8100EA3C76 /* Images.xcassets in Resources */,
 				549CE2341EE7E97200EA3C76 /* Assets.xcassets in Resources */,
 				549CE2321EE7E97100EA3C76 /* Main.storyboard in Resources */,
 			);
@@ -315,8 +399,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				549CE27D1EE9300100EA3C76 /* Factory.m in Sources */,
+				549CE2841EE9323E00EA3C76 /* ZFStaticTableViewCell+LogoutCell.m in Sources */,
 				549CE2661EE7F74800EA3C76 /* ZFStaticTableViewDataSource.m in Sources */,
 				549CE22F1EE7E97100EA3C76 /* ViewController.m in Sources */,
+				549CE2A11EE94B2200EA3C76 /* SJEmoticonViewController.m in Sources */,
+				549CE2A21EE94B2200EA3C76 /* SJInfoViewController.m in Sources */,
+				549CE2A31EE94B2200EA3C76 /* SJSettingViewController.m in Sources */,
+				549CE2A01EE94B2200EA3C76 /* SJCustomCellsViewController.m in Sources */,
+				549CE29F1EE94B2200EA3C76 /* SJCustomCellsOneSectionViewController.m in Sources */,
+				549CE28A1EE932B300EA3C76 /* ZFStaticTableViewCell+AccessorySwitch.m in Sources */,
+				549CE2871EE9328800EA3C76 /* ZFStaticTableViewCell+AccessoryNone.m in Sources */,
 				549CE2631EE7F71900EA3C76 /* ZFStaticTableViewCell.m in Sources */,
 				549CE25D1EE7F3F800EA3C76 /* ZFStaticTableView.m in Sources */,
 				549CE2601EE7F6FA00EA3C76 /* ZFStaticTableViewCellViewModel.m in Sources */,
@@ -324,6 +417,9 @@
 				549CE22C1EE7E97100EA3C76 /* AppDelegate.m in Sources */,
 				549CE2291EE7E97100EA3C76 /* main.m in Sources */,
 				549CE2691EE7F77300EA3C76 /* ZFStaticTableViewController.m in Sources */,
+				549CE28D1EE9330400EA3C76 /* ZFStaticTableViewCell+MeAvatar.m in Sources */,
+				549CE2941EE946F500EA3C76 /* MeViewController.m in Sources */,
+				549CE2811EE9317A00EA3C76 /* ZFStaticTableViewCell+AccessoryIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

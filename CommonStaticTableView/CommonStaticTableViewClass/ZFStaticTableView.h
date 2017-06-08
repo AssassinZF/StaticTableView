@@ -7,25 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZFStaticTableViewDataSource.h"
 
 @class ZFStaticTableViewCellViewModel;
 @class ZFStaticTableViewSectionViewModel;
 
-@protocol ZFStaticTableViewDelegate <NSObject>
+@protocol ZFStaticTableViewDelegate <UITableViewDelegate>
 
 @optional
 //点击
 -(void)didSelectViewModel:(ZFStaticTableViewCellViewModel *)viewModel atIndexPath:(NSIndexPath *)indexPath;
-
-@end
-
-@protocol ZFStaticTableViewDataSource <UITableViewDataSource>
-
-@optional
-
-- (ZFStaticTableViewSectionViewModel *)tableView:(UITableView *)tableView sectionViewModelInSection:(NSInteger )section;
-- (ZFStaticTableViewCellViewModel *)tableView:(UITableView *)tableview cellViewModelAtIndexPath:(NSIndexPath *)indexPath;
-
 
 @end
 

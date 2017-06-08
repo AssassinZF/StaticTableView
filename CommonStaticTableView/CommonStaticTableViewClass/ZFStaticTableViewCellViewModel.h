@@ -12,12 +12,14 @@
 
 typedef NS_ENUM(NSInteger, ZFStaticCellType) {
     
-    ZFStaticCellTypeDefault = 0,//默认 | icon  title  > |
-    ZFStaticCellTypeLogout = 1,//退出登录
-    ZFStaticCellTypeAccessorySwitch = 2,//右边显示开关
-    ZFStaticCellTypeAccessoryIndicator = 3,//右侧是三角箭头(箭头左侧可以有一个image或者一个label，或者二者都有，根据传入的参数决定)
-    ZFStaticCellTypeMeAvatar = 4, //个人页头像
-    ZFStaticCellTypeCustom = 5,//需要用户自己添加的自定义cell类型
+    //系统风格的各种cell类型，已封装好，可以直接用
+    SJStaticCellTypeSystemLogout,                          //退出登录cell（已封装好）
+    SJStaticCellTypeSystemAccessoryNone,                   //右侧没有任何控件
+    SJStaticCellTypeSystemAccessorySwitch,                 //右侧是开关
+    SJStaticCellTypeSystemAccessoryDisclosureIndicator,    //右侧是三角箭头(箭头左侧可以有一个image或者一个label，或者二者都有，根据传入的参数决定)
+    
+    //需要用户自己添加的自定义cell类型
+    SJStaticCellTypeMeAvatar,                              //个人页“我”cell
     
 };
 

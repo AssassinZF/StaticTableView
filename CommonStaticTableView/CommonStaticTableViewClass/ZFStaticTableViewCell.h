@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class ZFStaticTableViewCellViewModel;
+#import "ZFStaticTableViewCellViewModel.h"
 
 @interface ZFStaticTableViewCell : UITableViewCell
 
