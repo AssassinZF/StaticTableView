@@ -18,7 +18,7 @@
         self.autoresizingMask =  UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         self.showsVerticalScrollIndicator = NO;
         self.showsHorizontalScrollIndicator = NO;
-        self.backgroundColor = SJColorWithRGB(240, 239, 245, 1);
+        self.backgroundColor = ColorWithRGB(240, 239, 245, 1);
         self.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
         self.delegate = self;
     }
@@ -60,11 +60,6 @@
         
         ZFStaticTableViewCellViewModel *cellViewModel = [self.zfDataSource tableView:tableView cellViewModelAtIndexPath:indexPath];
         [self.zfDelegate didSelectViewModel:cellViewModel atIndexPath:indexPath];
-        
-    }else if((self.zfDelegate)&& [self.zfDelegate respondsToSelector:@selector(tableView:didSelectRowAtIndexPath:)]){
-        
-//        [self.zfDelegate tableView:tableView didSelectRowAtIndexPath:indexPath];
-        
     }
 }
 

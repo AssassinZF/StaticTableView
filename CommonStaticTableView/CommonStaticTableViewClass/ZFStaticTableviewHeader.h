@@ -21,12 +21,4 @@
 
 #import "ZFStaticTableViewDataSource.h"
 
-//custom cell
-
-#import "ZFStaticTableViewCell+AccessoryIndicator.h"
-#import "ZFStaticTableViewCell+AccessoryNone.h"
-#import "ZFStaticTableViewCell+AccessorySwitch.h"
-#import "ZFStaticTableViewCell+LogoutCell.h"
-#import "ZFStaticTableViewCell+MeAvatar.h"
-
 #endif /* ZFStaticTableviewHeader_h */

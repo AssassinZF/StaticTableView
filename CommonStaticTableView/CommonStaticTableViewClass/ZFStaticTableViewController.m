@@ -32,7 +32,7 @@
     [self configureDataSource];
     [self.view addSubview:self.tableView];
     self.view.backgroundColor = [UIColor redColor];
-    self.navigationController.navigationBar.barTintColor = SJColorWithRGB(18, 18, 18, 1.0);
+    self.navigationController.navigationBar.barTintColor = ColorWithRGB(18, 18, 18, 1.0);
 
     //修改导航条标题颜色
     [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,nil]];

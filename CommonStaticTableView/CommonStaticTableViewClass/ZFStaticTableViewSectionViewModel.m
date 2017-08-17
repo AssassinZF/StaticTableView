@@ -18,14 +18,14 @@
     if (self) {
         _sectionHeaderHeight = 10;
         _sectionFooterHeight = 10;
-        _leftLabelTextFont = SJLeftTitleTextFont;
-        _leftLabelTextColor = SJLeftTitleTextColor;
-        _leftImageSize = CGSizeMake(SJImgWidth, SJImgWidth);
-        _leftImageAndLabelGap = SJLeftMiddleGap;
-        _indicatorLeftLabelTextFont = SJIndicatorLeftTitleTextFont;
-        _indicatorLeftLabelTextColor = SJIndicatorLeftTitleTextColor;
-        _indicatorLeftImageSize = CGSizeMake(SJImgWidth, SJImgWidth);
-        _indicatorLeftImageAndLabelGap = SJRightMiddleGap;
+        _leftLabelTextFont = LeftTitleTextFont;
+        _leftLabelTextColor = LeftTitleTextColor;
+        _leftImageSize = CGSizeMake(_sectionFooterHeight - CellTopSpace*2, _sectionFooterHeight - CellTopSpace*2);
+        _leftImageAndLabelGap = TitleAndIconSpace;
+        _indicatorLeftLabelTextFont = IndicatorLeftTitleTextFont;
+        _indicatorLeftLabelTextColor = IndicatorLeftTitleTextColor;
+        _indicatorLeftImageSize = CGSizeMake(20, 20);
+        _indicatorLeftImageAndLabelGap = RightLabelAndArrow;
         _cellViewModelsArray = [cellViewModelsArray mutableCopy];
     }
     return self;
@@ -79,7 +79,7 @@
     if (_leftImageAndLabelGap != leftImageAndLabelGap) {
         _leftImageAndLabelGap = leftImageAndLabelGap;
         [_cellViewModelsArray enumerateObjectsUsingBlock:^(ZFStaticTableViewCellViewModel * viewModel, NSUInteger idx, BOOL * _Nonnull stop) {
-            viewModel.leftImageAndLabelGap = _leftImageAndLabelGap;
+            viewModel.leftImageSpace = _leftImageAndLabelGap;
         }];
     }
 }

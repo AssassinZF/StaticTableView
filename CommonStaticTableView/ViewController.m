@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "Factory.h"
-#import "MeViewController.h"
 
 @interface ViewController ()
 
@@ -18,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self networkRequest];
+//    [self networkRequest];
 }
 
 - (void)networkRequest
@@ -56,12 +55,10 @@
         
         switch (viewModel.staticCellType)
         {
-            case SJStaticCellTypeSystemAccessoryDisclosureIndicator:
+            case ZFStaticCellTypeDefault:
             {
-                [cell configureAccessoryDisclosureIndicatorCellWithViewModel:viewModel];
-            }
-                break;
-                
+                [cell configureDefaultCellWithModel:viewModel];
+            }break;
             default:
                 break;
         }
@@ -70,8 +67,7 @@
 }
 
 -(void)didSelectViewModel:(ZFStaticTableViewCellViewModel *)viewModel atIndexPath:(NSIndexPath *)indexPath{
-    MeViewController *vc = [[MeViewController alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
+    NSLog(@"click:%ld",(long)indexPath.row);
 }
 
 

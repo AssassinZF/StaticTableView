@@ -18,20 +18,21 @@
 {
     self = [super init];
     if (self) {
-        _cellHeight = 44;
+        _cellHeight = CellHeight;
         _cellID = @"defaultCell";
-        _staticCellType = SJStaticCellTypeSystemAccessoryDisclosureIndicator;//默认是存在三角箭头的cell
+        _staticCellType = ZFStaticCellTypeDefault;
         _isImageFirst = YES;
         
         //都是默认配置
-        _leftLabelTextFont = SJLeftTitleTextFont;
-        _leftLabelTextColor = SJLeftTitleTextColor;
-        _leftImageSize = CGSizeMake(SJImgWidth, SJImgWidth);
-        _leftImageAndLabelGap = SJLeftMiddleGap;
-        _indicatorLeftLabelTextFont = SJIndicatorLeftTitleTextFont;
-        _indicatorLeftLabelTextColor = SJIndicatorLeftTitleTextColor;
-        _indicatorLeftImageSize = CGSizeMake(SJImgWidth, SJImgWidth);
-        _indicatorLeftImageAndLabelGap = SJRightMiddleGap;
+        _leftLabelTextFont = LeftTitleTextFont;
+        _leftLabelTextColor = LeftTitleTextColor;
+        _leftImageSize = CGSizeMake(_cellHeight - CellTopSpace*2, _cellHeight - CellTopSpace*2);
+        _leftImageSpace = CellSidleSpace;
+        _leftTitleSpace = CellSidleSpace;
+        _indicatorLeftLabelTextFont = IndicatorLeftTitleTextFont;
+        _indicatorLeftLabelTextColor = IndicatorLeftTitleTextColor;
+        _indicatorLeftImageSize = ArrowImageSize;
+        _indicatorLeftImageAndLabelGap = RightLabelAndArrow;
     }
     return self;
 }
@@ -45,9 +46,9 @@
         _leftTitleLabelSize = [self sizeForTitle:leftTitle withFont:_leftLabelTextFont];
         
         //very long title
-        if (_leftTitleLabelSize.width > SJTitleWidthLimit) {
+        if (_leftTitleLabelSize.width > TitleMaxW) {
             CGSize size = _leftTitleLabelSize;
-            size.width = SJTitleWidthLimit;
+            size.width = TitleMaxW;
             _leftTitleLabelSize = size;
         }
         
@@ -77,9 +78,9 @@
         _indicatorLeftLabelSize = [self sizeForTitle:_indicatorLeftTitle withFont:_indicatorLeftLabelTextFont];
         
         //very long title
-        if (_indicatorLeftLabelSize.width > SJTitleWidthLimit) {
+        if (_indicatorLeftLabelSize.width > TitleMaxW) {
             CGSize size = _indicatorLeftLabelSize;
-            size.width = SJTitleWidthLimit;
+            size.width = TitleMaxW;
             _indicatorLeftLabelSize = size;
         }
         
@@ -96,7 +97,7 @@
         
         _indicatorLeftImage = indicatorLeftImage;
         
-        CGFloat limitHeight = self.cellHeight - 2*SJTopGap;
+        CGFloat limitHeight = self.cellHeight - 2*CellTopSpace;
         CGFloat indicatorLeftImageWidth = 0.0f;
         CGFloat indicatorLeftImageHeight = 0.0f;
         
@@ -133,11 +134,8 @@
                 self.indicatorLeftLabelSize = size;
             }
         }
-        
     }
 }
-
-
 
 - (CGSize)sizeForTitle:(NSString *)title withFont:(UIFont *)font
 {
